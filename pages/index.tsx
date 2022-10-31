@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <meta name="keywords" content="cripto" />
       </Head>
 
-      <h1 className='flex justify-center items-center text-brand-secondary-light h-screen'>Test - home</h1>
+      <h1 className='flex justify-center items-center text-brand-secondary-light h-screen'>TESTANDO TEST - home</h1>
     </>
   )
 }

@@ -1,11 +1,10 @@
-version: '1.0'
+version: '3'
 
 services:
   frontend:
-    image: node:16.3.0-alpine3.13
+    build: .
+    command: npm run dev
     ports:
-      - 3000:3000
+      - "3000:3000"
     volumes:
-      - ${LOCAL_WORKSPACE_FOLDER}:/workspace
-    working_dir: /workspace
-    command: sh -c "npm install"
+      - .:/usr/app
