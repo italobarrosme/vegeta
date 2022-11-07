@@ -1,10 +1,15 @@
 version: '3'
-
 services:
-  frontend:
+  nextjs:
+    image: docker-nextjs-dev
     build: .
-    command: npm run dev
     ports:
       - "3000:3000"
     volumes:
-      - .:/usr/app
+      - ./pages:/usr/app/pages
+      - ./public:/usr/app/public
+      - ./styles:/usr/app/styles
+      - ./useCases:/usr/app/useCases
+      - ./useComponents:/usr/app/useComponents
+      - ./usePieces:/usr/app/usePieces
+      - ./store:/usr/app/store

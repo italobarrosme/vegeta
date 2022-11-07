@@ -36,7 +36,7 @@ export const Hero = ({ children, title, text, advantages }: any) => {
       </div>
 
       <div className="flex items-center justify-center md:max-w-sm p-5 lg:p-0">
-        <img className="xl:scale-125" src="./undraw_crypto_flowers_re_dyqo.svg" alt="glasses photo" />
+        <img className="xl:scale-125" src="./undraw_delivery_truck_vt6p.svg" alt="truck" />
       </div>
     </div>
   )
