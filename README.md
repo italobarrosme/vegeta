@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Base project NEXTJS + DOCKER + Dev Container
 
 ## Requirements
@@ -18,3 +19,20 @@ Thus creating the proposed development container.
 http://localhost:3000.
 
 
+=======
+# Base project NEXTJS + DOCKER + Dev Container
+
+## Requirements
+
+- [Docker](https://www.docker.com/)
+
+## How to usage
+
+1. Clone this repository and Open the project in VS Code.
+2. Have `Docker` and `VScode` installed on your machine. 
+3. docker compose up to run the container
+4. After the container is ready, The application will be available at 
+http://localhost:3000.
+
+
+>>>>>>> 7310821423cfe211930944728304db0d34d80f76
